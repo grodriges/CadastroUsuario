@@ -1,3 +1,51 @@
-<p>
-  Cadastro works!
-</p>
+<style>
+  .cadastro{
+    background-color: #29abe2;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+  }
+  
+  form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  display: inline-block;
+  position: relative;  
+}
+
+.campos {
+  width: 100%;
+}
+</style>
+<div class="cadastro">
+  <p>CADASTRO</p>
+  <form>
+    <mat-form-field class="campos">
+      <mat-label>Nome</mat-label>
+      <input matInput placeholder="Insira o nome">
+    </mat-form-field>
+  <br>
+    <mat-form-field class="campos">
+      <mat-label>E-mail</mat-label>
+      <textarea matInput placeholder="Insira o E-mail"></textarea>
+    </mat-form-field>
+    <br>
+    <mat-form-field class="campos">
+      <mat-label>Nascimento</mat-label>
+      <textarea matInput placeholder="Insira a data de nascimento"></textarea>
+    </mat-form-field>
+    <br>
+    <mat-form-field class="campos">
+      <mat-label>Telefone</mat-label>
+      <textarea matInput placeholder="Insira o telefone"></textarea>
+    </mat-form-field>
+  </form>
+  <br>
+  <button mat-raised-button color="primary">
+    CADASTRAR
+  </button>
+  <br>
+  <br>
+</div>
+

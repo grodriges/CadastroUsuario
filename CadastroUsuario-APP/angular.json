@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -88,6 +89,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CadastroUsuario-APP"
+    }
+  },
+  "defaultProject": "CadastroUsuario-APP",
+  "cli": {
+    "analytics": "989a5cc8-0ccc-4383-ae56-02d70a7a6ab3"
+  }
 }
