@@ -1,4 +1,4 @@
-
+/* 
 a{
     text-decoration: none;
     color: white;
@@ -11,9 +11,52 @@ a:hover, a:active{
 .nav-caption{
     display: inline-block;
     padding-left: 6px;
-}
-.navbar{
-    background-image: url("../../assets/img/index-image.jpg");  
-    background-size: cover;
-    height: 400px;
+} */
+
+  .navbar a{
+    color: white;
+    font-size: 10px;
+    margin: 8px;
+  }
+
+  .menu-spacer {
+    flex: 1 1 auto;
+  }
+  .menuB {
+    background-color: rgba(10,23,55,0.0);
+    width: 100%;
+  }
+
+  .listMenu{
+    background-color: #29abe2;
+    width: 60%;
+    
+  }
+  .rowList{
+    height: 250px;
+  }
+
+  .imgcircle{
+      font-size: 8px;
+      text-align: center;
+      align-items: center;
+      display: inline-flex;
+        vertical-align: top;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 1800px) {
+    .navbar{
+        background-image: url("../../assets/img/index-image.jpg");  
+        background-size: cover;
+        height: 400px;
+      }
+  }
+
+  @media screen and (max-width: 575px) {
+    .navbar{
+        background-image: url("../../assets/img/index-image-mobile.jpg");  
+        background-size: cover;
+        height: 400px;
+      }
   }

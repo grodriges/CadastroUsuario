@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CadastroComponent } from './Cadastro/Cadastro.component';
 import { HeadComponent } from './Head/Head.component';
-// import { ListaCadastroComponent } from './ListaCadastro/ListaCadastro.component';
+import { ListaCadastroComponent } from './ListaCadastro/ListaCadastro.component';
 import { FooterComponent } from './Footer/Footer.component';
 
 import {MatInputModule} from '@angular/material/input';
@@ -20,14 +20,18 @@ import { MatListModule } from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
 import {FormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TableStickyColumnsExample } from './ListaCadastro/ListaCadastro.component';
+// import { TableStickyColumnsExample } from './ListaCadastro/ListaCadastro.component';
+
+import { FlexLayoutModule } from '@angular/flex-layout';
+
+
 @NgModule({
    declarations: [
       AppComponent,
       CadastroComponent,
       HeadComponent,
-      // ListaCadastroComponent,
-      TableStickyColumnsExample,
+      ListaCadastroComponent,
+      // TableStickyColumnsExample,
       FooterComponent
    ],
    imports: [
@@ -44,7 +48,8 @@ import { TableStickyColumnsExample } from './ListaCadastro/ListaCadastro.compone
       MatSliderModule,
       MatToolbarModule,
       MatListModule,
-      MatIconModule
+      MatIconModule,
+      FlexLayoutModule
    ],
    exports: [
       MatInputModule,
@@ -56,7 +61,8 @@ import { TableStickyColumnsExample } from './ListaCadastro/ListaCadastro.compone
       MatSliderModule,
       MatToolbarModule,
       MatListModule,
-      MatIconModule
+      MatIconModule,
+      FlexLayoutModule
    ],
    providers: [],
    bootstrap: [
